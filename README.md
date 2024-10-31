@@ -4,7 +4,7 @@
 
 This project analyzes shark attack data to explore patterns in shark incidents, focusing on factors like location, activity, season, and demographics. By identifying trends, we aim to improve safety awareness and preventative insights for ocean-goers.
 
-**Hypothesis**
+**Hypothesis:**
 Educating users about shark encounter risk factors, including location, time of year, and activity type, will increase their awareness and reduce shark-related incidents.
 
 
