@@ -86,10 +86,9 @@ Pandas, Numpy, Seaborn and Matplotlib.pyplo
   <summary>Click to see the list of functions</summary>
 
 
-  **Techniques Utilized** 
-    Functions groupby(), .agg(),, .pivot_table(), for grouping data, unstack(), .melt(), sort_values() to prepare them for
-    visualization
-    Seaborn and matlplotlib.pyplot libraries, barplot and histplots for data visualization
+  **Techniques Utilized:** 
+  functions groupby(), .agg(),, .pivot_table(), for grouping data, unstack(), .melt(), sort_values() to prepare them for
+  visualization. Seaborn and matlplotlib.pyplot libraries, barplot and histplots for data visualization
 
   Example of functions we have used
   
