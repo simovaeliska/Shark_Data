@@ -2,8 +2,11 @@
 
 **Introduction**
 
-"This project analyzes shark attack data to explore patterns in shark incidents, focusing on factors like location, activity, season, and demographics. 
-By identifying trends, we aim to improve safety awareness and preventative insights for ocean-goers."
+This project analyzes shark attack data to explore patterns in shark incidents, focusing on factors like location, activity, season, and demographics. By identifying trends, we aim to improve safety awareness and preventative insights for ocean-goers.
+
+**Hypothesis**
+Educating users about shark encounter risk factors, including location, time of year, and activity type, will increase their awareness and reduce shark-related incidents.
+
 
 **Required packages**
 
@@ -77,12 +80,36 @@ Pandas, Numpy, Seaborn and Matplotlib.pyplo
 
 </details>
 
-**Data visulaization functions**
+ **Data visualization functions**
 
+<details>
+  <summary>Click to see the list of functions</summary>
+
+  Techniques Utilized - Functions groupby(), .agg(),, .pivot_table(), for grouping data, unstack(), .melt(), sort_values()            to prepare them for visualization
+  Seaborn and matlplotlib.pyplot libraries, barplot and histplots for data visualization
+
+  Example of functions we have used
+  
+  - **Grouped_month_hemisphere(df)** -  Analyzes shark activity by month and hemisphere. It groups data using groupby()and counts
+    occurrences with .size(). The unstack() method pivots the DataFrame to create columns for each hemisphere, while .fillna(0) and
+    .astype(int) ensure no missing values. The DataFrame is sorted and reshaped using .melt() for visualization, culminating in a
+    bar plot via sns.barplot().
+  - **Visualize_activity_sex_group()** function compares shark incident activities by gender. It groups data using groupby() and
+    counts cases, sorting them by frequency. The DataFrame is reshaped for clarity with .melt(), and a bar chart is plotted using
+    sns.barplot() for straightforward comparison.
+  - **Grouped_decade_incidents(df)** analyzes shark incidents by decade, focusing on data from 1920 to 2010. It groups incidents
+    using groupby() to count occurrences and visualizes the frequency of shark attacks per decade with sns.barplot(), revealing
+    long-term trends.
+  - **grouped_activity_year** code filters shark incident data for decades between 1920 and 2010, focusing on provoked and
+    unprovoked types. It then groups the data by decade and type, counting incidents.
+
+</details>
 
 **Results**
 
-Summarize your findings briefly:
+Most shark attacks occurred during warmer months depending on the hemisphere.
+Surfing and Swimming are at the top of the most dangerous activities.
+While USA has the most shark attack incidents, Australia has the most fatal incidents recorded. 
+Significant decline in the percentage of fatal shark attacks, dropping from over 60% in the early 1900s to around 5.66% in the 2010
+The reported number of shark attacks has significantly increased over the last 100 years, however, this is likely due to increased reporting and increased global population.
 
-Insight into the most common activities, seasons, and demographics related to shark incidents.
-Visualization examples (if applicable).
