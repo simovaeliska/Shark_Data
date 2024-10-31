@@ -13,7 +13,7 @@ Pandas, Numpy, Seaborn and Matplotlib.pyplo
 **Data cleaning and analysis functions**
 
 <details>
-  <summary>Click to see the list</summary>
+  <summary>Click to see the list of functions</summary>
   
   - The **clean_string()** function standardizes string values by retaining only numeric characters and hyphens, ensuring that non-numeric characters are removed.
     This approach helps in eliminating inconsistencies that may arise from text variations.
