@@ -85,6 +85,7 @@ Pandas, Numpy, Seaborn and Matplotlib.pyplo
 <details>
   <summary>Click to see the list of functions</summary>
 
+
   **Techniques Utilized** 
     Functions groupby(), .agg(),, .pivot_table(), for grouping data, unstack(), .melt(), sort_values() to prepare them for
     visualization
